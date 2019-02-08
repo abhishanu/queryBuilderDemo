@@ -1,0 +1,8 @@
+[
+	{"rMngr":"X","rName":"A", "proAmt": 5012.0, "accuracy": "42%"},
+	{"rMngr":"Y","rName":"B", "proAmt": 1245.2, "accuracy": "83%"},
+    {"rMngr":"Z","rName":"C", "proAmt": 4569.3, "accuracy": "72%"},
+    {"rMngr":"X","rName":"D", "proAmt": 4215.1, "accuracy": "83%"},
+    {"rMngr":"Z","rName":"E", "proAmt": 4521.5, "accuracy": "72%"},
+    {"rMngr":"X","rName":"D", "proAmt": 7845.3, "accuracy": "72%"}
+]

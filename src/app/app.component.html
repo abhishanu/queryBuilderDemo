@@ -1,0 +1,26 @@
+<div class="main-app">
+
+    <ul class="navbar">
+        <li><a [ngClass]="{'active' : switchView}" href="JavaScript:Void(0)" (click)="switchView =!switchView">View Data</a></li>
+        <li><a [ngClass]="{'active' : !switchView}" href="JavaScript:Void(0)" (click)="switchView =!switchView">Query Builder</a></li>    
+    </ul>
+    <div>
+    
+
+        <div class="home-page" *ngIf=switchView>
+            <div class="home-table">
+              <h2>
+                {{ service.title }}
+              </h2>
+            </div>
+            
+            <div *ngIf=!service.showChildDataFlag>
+                <app-main-page></app-main-page>
+            </div>
+            <div *ngIf=service.showChildDataFlag>
+                <app-sub-data></app-sub-data>
+            </div>
+    </div>
+    
+    <app-quer-biluder *ngIf=!switchView></app-quer-biluder>    
+</div>

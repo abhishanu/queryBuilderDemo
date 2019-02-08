@@ -1,0 +1,12 @@
+
+<div>
+  <ag-grid-angular 
+            style="width: 30%; height: 150px;text-align: center;margin-left: 35%" 
+            class="ag-theme-balham"
+            [rowData]="service.mainPageData" 
+            [columnDefs]="columnDefs"
+            [enableSorting]="true"
+            (cellClicked)='cellClicked($event)'>
+  </ag-grid-angular>
+
+</div>

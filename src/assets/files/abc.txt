@@ -1,0 +1,15 @@
+{
+ "childData":[
+	{"rMngr":"X","rName":"A", "proAmt": 2800.0, "accuracy": "42%"},
+	{"rMngr":"Y","rName":"B", "proAmt": 1245.2, "accuracy": "83%"},
+    {"rMngr":"Z","rName":"C", "proAmt": 4569.3, "accuracy": "72%"},
+    {"rMngr":"X","rName":"D", "proAmt": 4215.1, "accuracy": "83%"},
+    {"rMngr":"Z","rName":"E", "proAmt": 4521.5, "accuracy": "72%"},
+    {"rMngr":"X","rName":"D", "proAmt": 7845.3, "accuracy": "72%"}
+],
+"mainPageData":[
+	{"proAmt": 16936.1, "accuracy": "72%"},
+    {"proAmt": 2542.0, "accuracy": "42%"},
+    {"proAmt": 5460.3, "accuracy": "83%"}
+  ]
+}

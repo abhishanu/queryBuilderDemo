@@ -1,0 +1,31 @@
+<div>
+  <ag-grid-angular 
+            style="width: 60%; height: 175px;text-align: center;margin-left: 25%" 
+            class="ag-theme-balham"
+            [rowData]="rowData" 
+            [columnDefs]="columnDefs"
+            [enableSorting]="true"
+            [enableFilter]="true"
+            
+            (cellClicked)='cellClicked($event)'>
+        </ag-grid-angular>
+        <div>
+          <button (click)="goToHome()" class="back-button">Back</button>
+        </div>
+
+        <div class="chart-box">
+          <lib-highcharts-angular 
+            [Highcharts]="Highcharts"
+            [options]="chartOptions"
+          
+            style="width:90%; height: 300px;margin:2%"
+          ></lib-highcharts-angular>
+
+          <lib-highcharts-angular 
+            [Highcharts]="Highcharts1"
+            [options]="chartOptions1"
+          
+            style="width: 90%; height: 300px;margin:2%"
+          ></lib-highcharts-angular>
+        </div>
+</div>
